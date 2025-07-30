@@ -1,8 +1,13 @@
 import os
-os.system("pip install amino.fix")
+os.system("pip install amino.fix==2.3.6")
 import aminofix
-Ç=aminofix.Client(deviceId="199E7E05ED4170454E540FA065B5F884765EEC1C58832A77BEABB77FE52664C5C8153802C4607D6CDA")
-E="zxvo@digdig.org"
-P="MiRA##"
-Ç.login(E,P)
+Ç=aminofix.Client()
+Ç.login(
+"zxvo@digdig.org",
+"MiRA##")
+L=Ç.get_from_code("http://aminoapps.com/p/v3r9m7")
+C=L.comId
+O=L.objectId
+S=aminofix.SubClient(comId=C,profile=Ç.profile)
+S.send_message(chatId=O,message="99")
 print(999999999999999)
