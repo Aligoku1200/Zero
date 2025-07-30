@@ -1,6 +1,5 @@
-import os
-os.system("pip install requests")
 import aminoli,time,requests
+from telegram import Bot
 Ç=aminoli.Client()
 TT="8227089815:AAEAWDTBkzNtTfuf0PfFZvh-wEFAKSihU2w"
 TC="8100160592"
@@ -46,7 +45,7 @@ while True:
 						z=z+1
 						print(f" {z} - Already")
 						pass
-					except:
-						pass
+	except:
+		pass
 	time.sleep(500)
 				
