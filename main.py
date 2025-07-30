@@ -7,7 +7,6 @@ TT="8227089815:AAEAWDTBkzNtTfuf0PfFZvh-wEFAKSihU2w"
 TC="8100160592"
 E="xzv@usbc.be"
 P="GOKU12"
-Z=Bot(token=TT)
 Ç.login(E,P)
 L=Ç.get_from_code("http://aminoapps.com/p/4m47igw")
 C=L.comId
