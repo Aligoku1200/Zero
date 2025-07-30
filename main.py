@@ -1,5 +1,5 @@
 import os
-os.system("pip install amino.fix==2.3.6")
+os.system("pip install amino.fix==2.3.6.1")
 import aminofix
 Ç=aminofix.Client()
 Ç.login(
