@@ -1,3 +1,6 @@
+import os
+os.system("pip install amino.li")
+os.system("pip install requests")
 import aminoli,time,requests
 from telegram import Bot
 Ç=aminoli.Client()
